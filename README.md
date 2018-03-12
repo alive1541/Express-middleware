@@ -1,6 +1,5 @@
----
-title: Express中间件原理详解 
----
+
+# Express中间件原理详解 
 
 ## 前言
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Express和Koa是目前最主流的基于node的web开发框架，他们的开发者是同一班人马。貌似现在Koa更加流行，但是仍然有大量的项目在使用Express，所以我想通过这篇文章说说Express中间件的原理。
