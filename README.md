@@ -89,7 +89,7 @@ app.use('/user2', function fn3(req, res, next) {
 4. 最后，Express会从上往下执行每个<code>Layer</code>里的函数，对应到图上就是从上至下、从左至右的依次执行，顺序为fn1、fn2、fn3、fn4。
 
 ## 最后
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上就是Express中间件的简单原理，白话较多，如果写的不准确的地方，希望大家批评指正。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上就是Express中间件的简单原理，如果写的不准确的地方，希望大家批评指正。
 
 ## 参考资料
 [Express官网](http://www.expressjs.com.cn/guide/using-middleware.html)</br>
